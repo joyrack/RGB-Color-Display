@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Color Coder</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="column">
+
+            <div class="row">
+                <div class="input-box">
+                    <span>RED</span>
+                    <input type="number" id="red" name="red" min="0" max="255" value="0">
+                </div>
+                <div class="input-box">
+                    <span>GREEN</span>
+                    <input type="number" id="green" min="0" max="255" value="0">
+                </div>
+                <div class="input-box">
+                    <span>BLUE</span>
+                    <input type="number" id="blue" min="0" max="255" value="0">
+                </div>
+            </div>
+
+            <div class="result">
+                <h3 id="debug">RESULT</h3>
+                <div class="result-color" id="result-color"></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
